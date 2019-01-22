@@ -20,7 +20,7 @@ public class App {
 		public XSSFCell ExcelCell;
 		public static XSSFRow ExcelRow;
 		
-		public static String filename_path="C:\\Users\\Manoj\\my-app\\Employee_Data.xlsx";
+		public static String filename_path="Employee_Data.xlsx";
 		
 		public static void main(String args[]) throws IOException
 		{
