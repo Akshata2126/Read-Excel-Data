@@ -34,7 +34,8 @@ public class App {
 	
 		// Create a loop for reading a row
 		 for (int i = 0; i <=rowCount; i++) {
-
+			
+			 //Read a row
 			 ExcelRow = ExcelWSheet.getRow(i);
 
 		        //Create a loop to print cell values in a row
