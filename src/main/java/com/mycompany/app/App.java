@@ -9,7 +9,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class App {
 
-		// 
+		// Variable to access ExcelFile
 		public static XSSFSheet ExcelWSheet;
 		public static XSSFWorkbook ExcelWorkbook;
 		public XSSFCell ExcelCell;
@@ -32,7 +32,7 @@ public class App {
 		//Find number of rows in excel sheet
 		int rowCount= ExcelWSheet.getLastRowNum() -ExcelWSheet.getFirstRowNum();
 	
-		// Create a loop for reading a row
+		// Create a loop to read a row
 		 for (int i = 0; i <=rowCount; i++) {
 			
 			 //Read a row
